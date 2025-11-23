@@ -1,4 +1,4 @@
-import { Home, Image, PlusCircle, MessageSquare, Settings, Instagram, LogOut } from "lucide-react";
+import { Home, Image, PlusCircle, MessageSquare, Settings, Instagram, LogOut, Award } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation, useNavigate } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
@@ -22,6 +22,7 @@ const items = [
   { title: "Posts", url: "/posts", icon: Image },
   { title: "Create Post", url: "/create-post", icon: PlusCircle },
   { title: "Comments", url: "/comments", icon: MessageSquare },
+  { title: "Rewards", url: "/rewards", icon: Award },
   { title: "Settings", url: "/settings", icon: Settings },
 ];
 
