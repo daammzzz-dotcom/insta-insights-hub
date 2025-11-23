@@ -9,6 +9,7 @@ import Dashboard from "./pages/Dashboard";
 import Posts from "./pages/Posts";
 import CreatePost from "./pages/CreatePost";
 import Comments from "./pages/Comments";
+import Rewards from "./pages/Rewards";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/posts" element={<Posts />} />
           <Route path="/create-post" element={<CreatePost />} />
           <Route path="/comments" element={<Comments />} />
+          <Route path="/rewards" element={<Rewards />} />
           <Route path="/settings" element={<Settings />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
